@@ -1,0 +1,78 @@
+.details {
+    height: 190vh;
+
+    @include respond(phone) {
+        height: 150vh;
+    }
+
+    &-text {
+        padding-top: 19rem;
+        padding-bottom: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 3rem;
+        background-image: linear-gradient(to right,$color-h1,$color-black);
+        -webkit-background-clip: text;
+        color: transparent;
+
+        @include respond(phone) {
+            padding-top: 9rem;
+        }
+    }
+
+    &-box {
+        text-align: center;
+        padding: 3rem;
+        margin-top: 5rem;
+        padding-left: 9rem;
+        width: 60%;
+        margin-left: 19%;
+        transform: skew(-14deg);
+        background-color: $color-text;
+        border-radius: 3px;
+        box-shadow: 0rem 3rem 6rem rgba($color-black, 0.1);
+
+        @include respond(phone) {
+            transform: skew(0deg);
+            padding-left: 2rem;
+            padding: 2rem;
+        }
+
+
+        &__text {
+            font-size: 2.5rem;
+            transform: skew(14deg);
+            padding: 1rem;
+            
+            @include respond(phone) {
+                transform: skew(0deg); 
+                font-size: 2rem;
+            }
+        }
+
+        &__text2 {
+            font-size: 1.3rem;
+            transform: skew(14deg);
+            color:$color-grey;
+
+
+
+            @include respond(phone) {
+                transform: skew(0deg);
+                font-size: 1.5rem; 
+            }
+        }
+
+    }
+
+    &-image {
+        height: 5rem;
+        transform: skew(14deg);
+
+        @include respond(phone) {
+            transform: skew(0deg); 
+        }
+    }
+
+}
+

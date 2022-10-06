@@ -1,0 +1,40 @@
+.btn{
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        position: relative;
+    }
+
+    &-headies {
+        background-color: $color-h1;
+        color: $color-text;
+        padding: 1.5rem 2rem;
+        font-size: 1.3rem;
+        display: inline-block;
+    
+        &:hover,
+        &:active {
+            background-color: $color-bluedark;
+            transition: all .2s;
+        }
+    
+    }
+
+    &-buy {
+        background-color: $color-text;
+        color: $color-h1;
+        padding: 1rem 2rem;
+        font-size: 1.3rem;
+        display: inline-block;
+
+        &:hover,
+        &:active {
+            background-color: $color-btn;
+            color: $color-text;
+            transition: all .2s;
+        }
+    
+    }
+}
