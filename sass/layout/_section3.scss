@@ -2,7 +2,7 @@
     height: 190vh;
 
     @include respond(phone) {
-        height: 150vh;
+        height: 120vh;
     }
 
     &-text {
@@ -27,15 +27,17 @@
         padding-left: 9rem;
         width: 60%;
         margin-left: 19%;
+        color: $color-text;
         transform: skew(-14deg);
-        background-color: $color-text;
+        background-color: $color-h1;
         border-radius: 3px;
         box-shadow: 0rem 3rem 6rem rgba($color-black, 0.1);
 
         @include respond(phone) {
             transform: skew(0deg);
-            padding-left: 2rem;
-            padding: 2rem;
+            padding: 1rem;
+            margin-left: 2rem;
+            width: 90%;
         }
 
 
@@ -53,13 +55,14 @@
         &__text2 {
             font-size: 1.3rem;
             transform: skew(14deg);
-            color:$color-grey;
+            color:$color-text;
 
 
 
             @include respond(phone) {
                 transform: skew(0deg);
-                font-size: 1.5rem; 
+                font-size: 1.5rem;
+                padding: 0.4rem;
             }
         }
 

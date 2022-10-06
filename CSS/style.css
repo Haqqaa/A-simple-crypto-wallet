@@ -28,7 +28,7 @@ big-desktop
 
 html {
   font-size: 65%;
-  background-color: #f6eeee; }
+  background-color: #fff; }
   @media (max-width: 75em) {
     html {
       font-size: 56.25%; } }
@@ -128,7 +128,7 @@ body {
   height: 190vh; }
   @media (max-width: 37.5em) {
     .details {
-      height: 150vh; } }
+      height: 120vh; } }
   .details-text {
     padding-top: 19rem;
     padding-bottom: 3rem;
@@ -148,15 +148,17 @@ body {
     padding-left: 9rem;
     width: 60%;
     margin-left: 19%;
+    color: #fff;
     transform: skew(-14deg);
-    background-color: #fff;
+    background-color: #25339d;
     border-radius: 3px;
     box-shadow: 0rem 3rem 6rem rgba(0, 0, 0, 0.1); }
     @media (max-width: 37.5em) {
       .details-box {
         transform: skew(0deg);
-        padding-left: 2rem;
-        padding: 2rem; } }
+        padding: 1rem;
+        margin-left: 2rem;
+        width: 90%; } }
     .details-box__text {
       font-size: 2.5rem;
       transform: skew(14deg);
@@ -168,11 +170,12 @@ body {
     .details-box__text2 {
       font-size: 1.3rem;
       transform: skew(14deg);
-      color: #777; }
+      color: #fff; }
       @media (max-width: 37.5em) {
         .details-box__text2 {
           transform: skew(0deg);
-          font-size: 1.5rem; } }
+          font-size: 1.5rem;
+          padding: 0.4rem; } }
   .details-image {
     height: 5rem;
     transform: skew(14deg); }
@@ -190,7 +193,7 @@ body {
   color: black; }
   @media (max-width: 37.5em) {
     .section5 {
-      height: 140vh; } }
+      height: 110vh; } }
 
 .omo {
   margin-left: 20rem;
@@ -215,8 +218,9 @@ body {
   height: 20rem; }
   @media (max-width: 37.5em) {
     .description {
+      height: 15rem;
       margin-top: 10rem;
-      margin-left: -5rem; } }
+      margin-left: -2rem; } }
 
 .footer {
   clip-path: polygon(0 30%, 100% 0, 100% 75vh, 0 100%);
@@ -243,18 +247,18 @@ body {
     .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
   .footer__link:link, .footer__link:visited {
-    color: #bebbbb;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block; }
   .footer__link:hover, .footer__link:active {
-    color: #f6eeee;
+    color: #fff;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
     transform: rotate(5deg) scale(1.1); }
   .footer__copyright {
     border-top: 1px solid #777;
     padding-top: 2rem;
-    color: #bebbbb;
+    color: #fff;
     display: inline-block;
     margin-left: 15rem; }
     @media (max-width: 37.5em) {

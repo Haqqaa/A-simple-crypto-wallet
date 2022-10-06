@@ -8,7 +8,7 @@
 
 html {
     font-size: 65%;
-    background-color: $color-offwhite;
+    background-color: $color-text;
 
     @include respond(tab-land) {
         font-size: 56.25%;
