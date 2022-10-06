@@ -37,6 +37,7 @@
             padding: 1rem;
             margin-left: 2rem;
             width: 90%;
+            box-shadow: 0rem 0rem 0rem rgba($color-black, 0);
         }
 
 
@@ -62,6 +63,8 @@
                 transform: skew(0deg);
                 font-size: 1.5rem;
                 padding: 0.4rem;
+                width: 75%;
+                margin-left: 5rem;
             }
         }
 
@@ -72,7 +75,10 @@
         transform: skew(14deg);
 
         @include respond(phone) {
-            transform: skew(0deg); 
+            transform: skew(0deg);
+            border-radius: 3rem;
+            padding: 1rem;
+            box-shadow: 0rem 3rem 6rem rgba($color-black, 0.4);
         }
     }
 
