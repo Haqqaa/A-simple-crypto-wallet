@@ -5,6 +5,10 @@
     padding: 10rem 0;
     font-size: 1.4rem;
 
+    @include respond(phone) {
+            clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    }
+
     &__logo {
         width: 15rem;
         height: auto;

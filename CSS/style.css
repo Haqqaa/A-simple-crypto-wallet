@@ -83,7 +83,9 @@ body {
   font-size: large; }
   @media (max-width: 37.5em) {
     .headies {
-      height: 75vh; } }
+      height: 75vh;
+      background-size: cover;
+      margin-top: -.6rem; } }
   .headies-text {
     color: #050e19;
     font-size: 6rem; }
@@ -148,11 +150,10 @@ body {
     padding-left: 9rem;
     width: 60%;
     margin-left: 19%;
-    color: #fff;
+    color: #050e19;
     transform: skew(-14deg);
-    background-color: #050e19;
     border-radius: 3px;
-    box-shadow: 0rem 3rem 6rem rgba(0, 0, 0, 0.1); }
+    box-shadow: 0rem 3rem 6rem rgba(0, 0, 0, 0.4); }
     @media (max-width: 37.5em) {
       .details-box {
         transform: skew(0deg);
@@ -166,11 +167,11 @@ body {
       @media (max-width: 37.5em) {
         .details-box__text {
           transform: skew(0deg);
-          font-size: 2rem; } }
+          font-size: 2.8rem; } }
     .details-box__text2 {
       font-size: 1.3rem;
       transform: skew(14deg);
-      color: #fff; }
+      color: #050e19; }
       @media (max-width: 37.5em) {
         .details-box__text2 {
           transform: skew(0deg);
@@ -227,6 +228,9 @@ body {
   background-color: #050e19;
   padding: 10rem 0;
   font-size: 1.4rem; }
+  @media (max-width: 37.5em) {
+    .footer {
+      clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%); } }
   .footer__logo {
     width: 15rem;
     height: auto; }
